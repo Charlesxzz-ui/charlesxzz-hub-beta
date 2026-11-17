@@ -21,7 +21,7 @@ local WEBHOOK_URL = "https://discord.com/api/webhooks/1571448384785752135/vtmI6z
 -- SISTEMA DE CRIADOR E VERSÃO
 -- ==========================================
 local CREATOR_NAME = "Charlesxzz" -- Seu nick exato no Roblox (Acesso livre e eterno)
-local CURRENT_HUB_VERSION = "1.0" -- Versão atual rodando neste script
+local CURRENT_HUB_VERSION = "1.1" -- Versão atual rodando neste script
 
 local function isCreator()
 	return player.Name == CREATOR_NAME
