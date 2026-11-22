@@ -20,8 +20,8 @@ local WEBHOOK_URL = "https://discord.com/api/webhooks/1571448384785752135/vtmI6z
 -- ==========================================
 -- SISTEMA DE CRIADOR E VERSÃO
 -- ==========================================
-local CREATOR_NAME = "Charlesxzz" -- Seu nick exato no Roblox (Acesso livre e eterno)
-local CURRENT_HUB_VERSION = "1.1" -- Versão atual rodando neste script
+local CREATOR_NAME = "Charlesxzz67" -- Seu nick exato no Roblox (Acesso livre e eterno)
+local CURRENT_HUB_VERSION = "1.5" -- Versão atual rodando neste script
 
 local function isCreator()
 	return player.Name == CREATOR_NAME
@@ -41,7 +41,7 @@ local function checkRemoteStatus()
 		return result
 	else
 		-- Fallback de segurança caso o GitHub caia momentaneamente
-		return { LatestVersion = "1.0", ValidKey = "Charlesxzz157GOAT", Maintenance = false }
+		return { LatestVersion = "1.5", ValidKey = "Quemxitanaodesanima", Maintenance = false }
 	end
 end
 
